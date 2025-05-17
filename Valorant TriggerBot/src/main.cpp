@@ -74,8 +74,6 @@ int main()
         return 1;
     }
 
-    cout << "Monitoring center pixel (" << centerX << ", " << centerY << ")...\n";
-
     while (true)
     {
         if (detectColors(centerX, centerY)) {
